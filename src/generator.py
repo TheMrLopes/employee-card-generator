@@ -31,11 +31,12 @@ while True:
     else:
         print("Insert valid role.")
 
-
-#Gerador de cartões (parte 1 = gerência)
-
-
+#Modificador de variáveis (parte 2 = código numérico)
 part2 = (str(hired)[::-1])
 
+#Modificador de variáveis (parte 3 = código alfabético)
+divide_name = name.split()
+print(divide_name)
+
 #hired = 
-print(f"{part1}-{part2}")
+#print(f"{part1}-{part2}-{part3}")

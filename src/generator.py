@@ -36,10 +36,11 @@ part2 = (str(hired)[::-1])
 
 #Modificador de variáveis (parte 3 = código alfabético)
 divide_name = name.split()
-part3 = ""
+bucket_name = ""
 for p in divide_name:
-    part3 += p[0]
+    bucket_name += p[0]
+part3 = bucket_name.upper()
 print(part3)
 
 #hired = 
-#print(f"{part1}-{part2}-{part3}")
+print(f"{part1}-{part2}-{part3}")

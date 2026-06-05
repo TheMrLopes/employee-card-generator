@@ -15,6 +15,7 @@ while True:
 
 title = input("Enter your job title: ")
 
+#Modificador de variáveis (parte 1= gerência)
 while True:
     division = input("Enter your role: ")
 
@@ -40,5 +41,5 @@ for p in divide_name:
     bucket_name += p[0]
 part3 = bucket_name.upper()
 
-#hired = 
-print(f"{part1}-{part2}-{part3}")
+#Criando crachá do funcionário
+print(f"This is your card, save it: {part1}-{part2}-{part3}")

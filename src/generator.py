@@ -36,8 +36,10 @@ part2 = (str(hired)[::-1])
 
 #Modificador de variáveis (parte 3 = código alfabético)
 divide_name = name.split()
-test = divide_name[2][0]
-print(test)
+part3 = ""
+for p in divide_name:
+    part3 += p[0]
+print(part3)
 
 #hired = 
 #print(f"{part1}-{part2}-{part3}")

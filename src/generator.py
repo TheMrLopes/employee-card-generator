@@ -14,7 +14,6 @@ while True:
         print("Only numbers!")
 
 title = input("Enter your job title: ")
-division = input("Enter your role: ")
 
 while True:
     division = input("Enter your role: ")
@@ -40,7 +39,6 @@ bucket_name = ""
 for p in divide_name:
     bucket_name += p[0]
 part3 = bucket_name.upper()
-print(part3)
 
 #hired = 
 print(f"{part1}-{part2}-{part3}")

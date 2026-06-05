@@ -17,21 +17,30 @@ title = input("Enter your job title: ")
 division = input("Enter your role: ")
 
 while True:
-    try:
-        if division == "Operational":
-            part1 = "OPER"
-        elif division == "Developer":
-            part1 = "DEV"
-        elif division == "Security":
-            part1 = "SEC"
-    except:
+    division = input("Enter your role: ")
+
+    if division == "Operational":
+        part1 = "OPER"
+        break
+    elif division == "Developer":
+        part1 = "DEV"
+        break
+    elif division == "Security":
+        part1 = "SEC"
+        break
+    else:
         print("Insert valid role.")
-    break
 
-#Gerador de cartões (parte 1 = gerência)
-
-
+#Modificador de variáveis (parte 2 = código numérico)
 part2 = (str(hired)[::-1])
 
+#Modificador de variáveis (parte 3 = código alfabético)
+divide_name = name.split()
+bucket_name = ""
+for p in divide_name:
+    bucket_name += p[0]
+part3 = bucket_name.upper()
+print(part3)
+
 #hired = 
-print(f"{part1}-{part2}")
+print(f"{part1}-{part2}-{part3}")
